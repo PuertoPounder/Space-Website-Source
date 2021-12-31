@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>Space website</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: rgb(150, 255, 255);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Space Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#">Features</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Cards-->
+  <Section id="planet-facts">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card mb-3">
+            <img src="https://solarsystem.nasa.gov/system/stellar_items/image_files/2_feature_1600x900_mercury.jpg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img src="http://www.nasa.gov/sites/default/files/thumbnails/image/imagesvenus20191211venus20191211-16.jpeg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fe74d45a9c2a2d204db2948%2F0x0.jpg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img
+              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1053794310%2FHappy-New-Mars-Year--Today-is-equinox-on-Mars--and-the-beginning-of-a-new--year-36-%2F960x0.jpg%3Ffit%3Dscale"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img src="https://cdn.britannica.com/66/155966-131-17B5B518/Jupiter.jpg" class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img src="https://cff2.earth.com/uploads/2019/01/17234744/Saturn-didn%E2%80%99t-always-have-its-rings.jpg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img
+              src="https://media.allure.com/photos/611c22a4caf394f274ba8180/2:1/w_3660,h_1830,c_limit/illustration%20of%20uranus%20.jpeg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3">
+            <img src="https://www.thestatesman.com/wp-content/uploads/2019/11/iStock-1187258348_ED.jpg"
+              class="card-img-top" height="800">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Embeds-->
+    <div class="responsive-embed">
+      <iframe src="https://www.solarsystemscope.com/iframe" width="500" height="400"></iframe>
+    </div>
+    <div class="responsive-embed">
+      <iframe src="https://www.nineplanets.org" width="500" height="400"></iframe>
+    </div>
+  </Section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+</body>
+
+</html>
